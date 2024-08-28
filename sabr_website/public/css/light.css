@@ -1,0 +1,35 @@
+:root{
+    --bg-color: ##CCC;
+    --master-color:#0d8edc;
+    --slave-color:#132655;
+}
+.cus-input {
+    background-color: var(--master-color);
+    color: var(--slave-color);
+}
+.cus-input input:not([type="checkbox"]) {
+    background-color: var(--master-color) !important;
+}
+input:not([type=checkbox]) {
+    color: var(--slave-color) !important;
+}
+.cus-input .custom-file-label {
+    background-color: var(--master-color);
+}
+.swal2-styled.swal2-confirm {
+    background-color: var(--bg-color);
+    color: var(--slave-color);
+}
+.swal2-popup {
+    background-color: var(--master-color);
+}
+.swal2-icon {
+    color: var(--slave-color)!important;
+}
+.swal2-icon.swal2-error [class^=swal2-x-mark-line] {
+    background-color: var(--slave-color);
+}
+.swal2-icon.swal2-success [class^="swal2-success-line"] {
+    color: var(--master-color) !important;
+    background-color: var(--slave-color) !important;
+}
